@@ -1,0 +1,168 @@
+.price-tables {
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 770px;
+    width: 380px;
+    padding: 36px 0 42px;
+    font-family: $basic-fonts;
+    color: $card-text-color;
+    background: $card-bg-color;
+    box-shadow: $card-shadow;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__title-offer {
+        margin: 0;
+        font-size: 35px;
+        line-height: 43px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 104px;
+        width: 100%;
+        margin-top: 36px;
+        font-size: 55px;
+        line-height: 67px;
+        font-weight: 700;
+    }
+
+    &__options-list {
+        margin: 0;
+        margin-top: 42px;
+    }
+
+    &__description {
+        max-width: 327px;
+        margin: 0;
+        margin-top: 39px;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    &__order-btn {
+        margin-top: 37px;
+        padding: 11px 26px 12px;
+        font-size: 14px;
+        line-height: 17px;
+        color: $card-text-color;
+        border-radius: 20px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+}
+
+.options-list {
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding-left: 22px;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 300;
+
+        &:nth-child(odd) {
+            background: #2A343880;
+        }
+
+    }
+
+    &__item-text {
+        margin-left: 21px;
+    }
+
+}
+
+.style-list-item {
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+}
+
+.basic {
+
+    .btn-color,
+    .style-color {
+        background-color: $card-basic-color;
+    }
+
+    .style-list-item {
+        background-image: $card-basic-style-list-item;
+    }
+
+}
+
+.business {
+
+    .btn-color,
+    .style-color {
+        background-color: $card-business-color;
+    }
+
+    .style-list-item {
+        background-image: $card-business-style-list-item;
+    }
+
+}
+
+.webshop {
+
+    .btn-color,
+    .style-color {
+        background-color: $card-webshop-color;
+    }
+
+    .style-list-item {
+        background-image: $card-webshop-style-list-item;
+    }
+
+}
+
+.popular {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: 'popular';
+        position: absolute;
+        height: 25px;
+        width: 147px;
+        right: -31px;
+        top: 30px;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 700;
+        text-align: center;
+        vertical-align: middle;
+        text-transform: uppercase;
+        transform: rotate(45deg);
+        color: #FFFFFF;
+        background: $card-marker-popular-bg-color;
+    }
+
+}
