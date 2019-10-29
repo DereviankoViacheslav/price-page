@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 104px;
+  margin: 18px auto 19px;
   width: 100%;
   margin-top: 36px;
   font-size: 55px;
@@ -54,6 +54,7 @@
   text-align: center;
 }
 .price-card__order-btn {
+  width: 155px;
   margin-top: 37px;
   padding: 11px 26px 12px;
   font-size: 14px;
