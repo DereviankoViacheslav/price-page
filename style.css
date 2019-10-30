@@ -39,23 +39,24 @@
   line-height: 67px;
   font-weight: 700;
 }
-.price-card__options-list {
-  margin: 0;
-  margin-top: 42px;
-}
 .price-card__description {
   max-width: 327px;
   margin: 0;
   margin-top: 39px;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 17px;
   font-weight: 300;
   text-align: center;
+}
+.price-card__options-list {
+  margin: 0;
+  margin-top: 42px;
 }
 .price-card__order-btn {
   width: 155px;
   margin-top: 37px;
   padding: 0;
+  padding-top: 1px;
   font-size: 15px;
   line-height: 39px;
   color: #fff;

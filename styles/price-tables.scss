@@ -42,25 +42,26 @@
         font-weight: 700;
     }
 
-    &__options-list {
-        margin: 0;
-        margin-top: 42px;
-    }
-
     &__description {
         max-width: 327px;
         margin: 0;
         margin-top: 39px;
         font-size: 15px;
-        line-height: 18px;
+        line-height: 17px;
         font-weight: 300;
         text-align: center;
+    }
+
+    &__options-list {
+        margin: 0;
+        margin-top: 42px;
     }
 
     &__order-btn {
         width: 155px;
         margin-top: 37px;
         padding: 0;
+        padding-top: 1px;
         font-size: 15px;
         line-height: 39px;
         color: $card-text-color;
