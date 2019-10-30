@@ -27,7 +27,7 @@
 
     &__subtitle {
         font-size: 20px;
-        line-height: 27px;
+        line-height: 24px;
         font-weight: 300;
     }
 
@@ -51,6 +51,7 @@
         max-width: 327px;
         margin: 0;
         margin-top: 39px;
+        margin-left: -1px;
         font-size: 15px;
         line-height: 18px;
         font-weight: 300;
@@ -58,9 +59,10 @@
     }
 
     &__order-btn {
+        height: 40px;
         width: 155px;
         margin-top: 37px;
-        padding: 11px 26px 11px;
+        // padding: 11px 26px 11px;
         font-size: 15px;
         line-height: 17px;
         color: $card-text-color;
