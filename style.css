@@ -53,6 +53,7 @@
   text-align: center;
 }
 .price-card__order-btn {
+  height: 40px;
   width: 155px;
   margin-top: 37px;
   padding: 11px 26px;
