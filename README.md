@@ -1,4 +1,4 @@
-[Price page](https://dereviankoviacheslav.github.io/price_page/)
+[Price page](https://dereviankoviacheslav.github.io/price-page/)
 # Price page
 > Page supports desktop version only
 > 
